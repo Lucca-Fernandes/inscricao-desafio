@@ -118,7 +118,7 @@ export default function BackendPage() {
                     <h4 className="font-semibold mb-2">Entrega:</h4>
                     <ul className="list-disc pl-5 text-muted-foreground text-sm">
                         <li>Repositório no GitHub.</li>
-                        <li>Projeto funcionando localmente.</li>
+                        <li>Projeto funcionando na Web.</li>
                         <li>Documentação acessível via navegador.</li>
                     </ul>
                 </div>
