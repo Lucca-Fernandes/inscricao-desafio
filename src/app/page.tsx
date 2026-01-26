@@ -18,20 +18,20 @@ type Project = {
 };
 
 const findImage = (id: string) => {
-    const img = PlaceHolderImages.find(p => p.id === id);
-    if (!img) {
-        // Fallback for safety, though it should always be found
-        return {
-            src: 'https://picsum.photos/seed/default/600/400',
-            alt: 'Placeholder image',
-            hint: 'placeholder',
-        };
-    }
+  const img = PlaceHolderImages.find(p => p.id === id);
+  if (!img) {
+    // Fallback for safety, though it should always be found
     return {
-        src: img.imageUrl,
-        alt: img.description,
-        hint: img.imageHint,
+      src: 'https://picsum.photos/seed/default/600/400',
+      alt: 'Placeholder image',
+      hint: 'placeholder',
     };
+  }
+  return {
+    src: img.imageUrl,
+    alt: img.description,
+    hint: img.imageHint,
+  };
 }
 
 const projects: Project[] = [
@@ -70,11 +70,10 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8 md:py-16">
       <section className="text-center mb-16">
         <h1 className="font-headline text-5xl md:text-7xl font-bold tracking-tighter mb-4">
-          Bem-vindo ao Desafio 
+          Bem-vindo ao Desafio Final
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-          Explore os desafios abaixo e escolha o projeto que mais se alinha com suas habilidades e interesses. Cada trilha foi desenhada para aprimorar suas competências em desenvolvimento de software.
-        </p>
+          Explore os desafios e escolha o projeto que mais se alinha com suas habilidades e interesses. Cada trilha foi desenhada para aprimorar suas competências em desenvolvimento de software.        </p>
       </section>
 
       <section>
