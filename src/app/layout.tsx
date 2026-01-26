@@ -7,7 +7,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { ThemeProvider } from '@/components/theme-provider';
 
 export const metadata: Metadata = {
-  title: 'PortfólioDev',
+  title: 'Projeto Desenvolve',
   description: 'Uma vitrine de projetos de desenvolvimento.',
 };
 
