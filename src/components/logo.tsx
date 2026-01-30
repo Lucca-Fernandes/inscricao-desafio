@@ -12,14 +12,14 @@ export function Logo({ className, ...props }: HTMLAttributes<HTMLDivElement>) {
       )}
       {...props}
     >
-      {/* Substitua "/logo.png" pelo nome EXATO do arquivo que está na sua pasta public */}
+      
       <Image 
         src={logo}
         alt="Logo Projeto Desenvolve" 
         width={40} 
         height={40}
         className="object-contain"
-        priority // Carrega a logo com prioridade
+        priority 
       />
 
       <div className="flex items-center">
