@@ -8,6 +8,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import Link from 'next/link';
+import SubscribeButton from '@/components/subscribe-button';
 
 export default function FrontendPage() {
   return (
@@ -133,6 +134,11 @@ export default function FrontendPage() {
 
         </div>
       </div>
+
+      <section className="mt-16 text-center">
+        <h2 className="font-headline text-2xl font-bold mb-4">Pronto para o desafio?</h2>
+        <SubscribeButton formUrl="https://forms.gle/rYwLi6LmNBsSQtyG9" />
+      </section>
     </div>
   );
 }

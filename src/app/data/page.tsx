@@ -7,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import SubscribeButton from '@/components/subscribe-button';
 
 export default function DataPage() {
   return (
@@ -118,6 +119,11 @@ export default function DataPage() {
           </Card>
         </div>
       </div>
+
+      <section className="mt-16 text-center">
+        <h2 className="font-headline text-2xl font-bold mb-4">Pronto para o desafio?</h2>
+        <SubscribeButton formUrl="https://forms.gle/uF3mNbLKnw5T2Zq49" />
+      </section>
     </div>
   );
 }
