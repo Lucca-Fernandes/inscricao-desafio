@@ -62,12 +62,12 @@ export default function BackendPage() {
           <Card>
             <CardHeader><CardTitle>🧱 Tecnologias</CardTitle></CardHeader>
             <CardContent className="space-y-2">
-                <p className="text-muted-foreground">Linguagem e framework de sua preferência, desde que:</p>
-                <ul className="list-disc pl-5 mt-2 text-muted-foreground">
-                    <li>O backend seja uma API REST.</li>
-                    <li>Utilize um banco de dados relacional.</li>
-                    <li>Possua documentação dos endpoints.</li>
-                </ul>
+              <p className="text-muted-foreground">Linguagem e framework de sua preferência, desde que:</p>
+              <ul className="list-disc pl-5 mt-2 text-muted-foreground">
+                <li>O backend seja uma API REST.</li>
+                <li>Utilize um banco de dados relacional.</li>
+                <li>Possua documentação dos endpoints.</li>
+              </ul>
             </CardContent>
           </Card>
 
@@ -85,43 +85,43 @@ export default function BackendPage() {
           <Card>
             <CardHeader><CardTitle>📝 Critérios de Avaliação</CardTitle></CardHeader>
             <CardContent>
-                <Table>
-                    <TableHeader>
-                        <TableRow>
-                            <TableHead>Critério</TableHead>
-                            <TableHead className="text-right">Peso</TableHead>
-                        </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                        <TableRow><TableCell>Banco de dados</TableCell><TableCell className="text-right">30%</TableCell></TableRow>
-                        <TableRow><TableCell>CRUD funcionando</TableCell><TableCell className="text-right">40%</TableCell></TableRow>
-                        <TableRow><TableCell>Organização do código</TableCell><TableCell className="text-right">20%</TableCell></TableRow>
-                        <TableRow><TableCell>Entrega final</TableCell><TableCell className="text-right">10%</TableCell></TableRow>
-                    </TableBody>
-                </Table>
+              <Table>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead>Critério</TableHead>
+                    <TableHead className="text-right">Peso</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  <TableRow><TableCell>Banco de dados</TableCell><TableCell className="text-right">30%</TableCell></TableRow>
+                  <TableRow><TableCell>CRUD funcionando</TableCell><TableCell className="text-right">40%</TableCell></TableRow>
+                  <TableRow><TableCell>Organização do código</TableCell><TableCell className="text-right">20%</TableCell></TableRow>
+                  <TableRow><TableCell>Entrega final</TableCell><TableCell className="text-right">10%</TableCell></TableRow>
+                </TableBody>
+              </Table>
             </CardContent>
           </Card>
-          
+
           <Card>
             <CardHeader><CardTitle>⚠️ Regras e Entrega</CardTitle></CardHeader>
             <CardContent className="space-y-4">
-                <div>
-                    <h4 className="font-semibold mb-2">Regras Gerais:</h4>
-                    <ul className="list-disc pl-5 text-muted-foreground text-sm">
-                        <li>O projeto deve ser feito individualmente.</li>
-                        <li>É permitido consultar documentação oficial.</li>
-                        <li>Não é permitido copiar projetos prontos.</li>
-                        <li>O código deve ser autoral e compreendido pelo aluno.</li>
-                    </ul>
-                </div>
-                 <div>
-                    <h4 className="font-semibold mb-2">Entrega:</h4>
-                    <ul className="list-disc pl-5 text-muted-foreground text-sm">
-                        <li>Repositório no GitHub.</li>
-                        <li>Projeto funcionando na Web.</li>
-                        <li>Documentação acessível via navegador.</li>
-                    </ul>
-                </div>
+              <div>
+                <h4 className="font-semibold mb-2">Regras Gerais:</h4>
+                <ul className="list-disc pl-5 text-muted-foreground text-sm">
+                  <li>O projeto deve ser feito individualmente.</li>
+                  <li>É permitido consultar documentação oficial.</li>
+                  <li>Não é permitido copiar projetos prontos.</li>
+                  <li>O código deve ser autoral e compreendido pelo aluno.</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Entrega:</h4>
+                <ul className="list-disc pl-5 text-muted-foreground text-sm">
+                  <li>Repositório no GitHub.</li>
+                  <li>Projeto funcionando na Web.</li>
+                  <li>Documentação acessível via navegador.</li>
+                </ul>
+              </div>
             </CardContent>
           </Card>
 

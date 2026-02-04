@@ -1,3 +1,5 @@
+'use client';
+
 import Logo from '../../public/logo.png';
 
 export function Footer() {
