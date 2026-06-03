@@ -99,12 +99,7 @@ export default function Home() {
                 <Button asChild variant="secondary">
                   <Link href={project.href}>Ver Projeto</Link>
                 </Button>
-                <SubscribeButton formUrl={
-                  project.id === 'frontend' ? 'https://forms.gle/rYwLi6LmNBsSQtyG9' :
-                  project.id === 'backend' ? 'https://forms.gle/niqLYCFsy5w7EH838' :
-                  project.id === 'fullstack' ? 'https://forms.gle/xmQyh3vCvorhHnR18' :
-                  'https://forms.gle/uF3mNbLKnw5T2Zq49'
-                } />
+                <SubscribeButton formUrl="https://forms.gle/wuimHR7upW4j3hax7" />
               </CardFooter>
             </Card>
           ))}
